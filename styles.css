@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+body {
+    margin: 0;
+    color: black;
+    background-color: rgb(230, 230, 230);
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a {
+    color: darkblue
+}
+
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10%;
+}
+
+.nabvar p {
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.main {
+    padding-top: 35px;
+    opacity: 0.9;
+}
+
+.mission {
+    display: flex;
+    height: 300px;
+    background-image: url("./recources/wallpaperflare.com_wallpaper.jpg");
+    padding-top: 35px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mission .content {
+    margin: auto;
+    width: 100%;
+    background-color: white;
+}
+
+#portfolio {
+    min-height: 500px;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.dojos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.dojo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dojo img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding: 10px;
+    height: auto;
+}
+
+.dojo span {
+    padding: 5px;
+    min-width: 240px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team {
+    background-image: url('./recources/dojos.jpg');
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+}
+
+.teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+}
+
+.contact,
+.copyright {
+    padding-top: 20px;
+}
